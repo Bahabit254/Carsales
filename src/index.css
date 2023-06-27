@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#neubar {
+  background: #76998e;
+  box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 25px;
+}
+
+.nav-item .active {
+  border-radius: 6px;
+  background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
+  box-shadow: 4px 4px 8px #ddc1a0,
+    -4px -4px 8px #f7e5cc;
+}
+
+#neubar .dropdown-menu a:hover {
+  color: #454545
+}
+
+#neubar .nav-item {
+  margin: auto 4px;
+}
+
+#neubar a {
+
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#neubar .dropdown-menu {
+  background: #545454
+}
+
+a.navbar-brand {
+  color: #454545
+}
+
+.footer-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 300px !important;
+}
+
+.component-box {
+  min-height: 50%;
+}
+
+.carousel-size {
+  min-height: 400px !important;
+  border-radius: 50%;
+}
+
+.custom-size {
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+}
